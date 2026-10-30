@@ -1,0 +1,103 @@
+{
+  "prepared_date": "2026-10-30",
+  "sources": [
+    {
+      "url": "https://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09c_nifti.zip",
+      "local_path": "mni_icbm152_nlin_asym_09c_nifti.zip",
+      "description": "Original public McGill ICBM152 nonlinear asymmetric 2009c NIfTI package"
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-MIAL67ThalamicNuclei_dseg.nii.gz",
+      "local_path": "tpl-MNI152NLin2009cAsym_res-01_atlas-MIAL67ThalamicNuclei_dseg.nii.gz",
+      "upstream_md5": "5eaed0b67a4c28758240e525690ad498"
+    },
+    {
+      "url": "https://github.com/templateflow/tpl-MNI152NLin2009cAsym",
+      "git_tree_sha": "15d7c02160f79f5218d2545b4febebeecc11531d",
+      "description": "Atlas metadata and label/color lookup table; CC-BY-4 per metadata"
+    }
+  ],
+  "templateflow_metadata_git_blob": "2b7f31f754f437a3359400eb388685cd4be5c3cc",
+  "templateflow_labels_git_blob": "8dc0294298066dfd7e5c58f29244b0381ef8a59d",
+  "artifacts": [
+    {
+      "artifact": "t1w",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_t1_tal_nlin_asym_09c.nii",
+      "upstream_sha256": "67fe8b2e8fed7fa318d293e79a31416f5b31d70f0330312f58125fcd3dde43a1",
+      "change": "Lossless gzip compression; uncompressed NIfTI bytes unchanged.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "t2w",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_t2_tal_nlin_asym_09c.nii",
+      "upstream_sha256": "51c9e88a3daca69a9e100d49228964e333366b731ce409184e5e52cf3f8465af",
+      "change": "Lossless gzip compression; uncompressed NIfTI bytes unchanged.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "pd",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_pd_tal_nlin_asym_09c.nii",
+      "upstream_sha256": "14b36d31a7cf2eaaee415c4cc8546eabf75d3f79bfa2a90724a4b2630a3c5ee4",
+      "change": "Lossless gzip compression; uncompressed NIfTI bytes unchanged.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "gm",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_gm_tal_nlin_asym_09c.nii",
+      "upstream_sha256": "781550eec4b7f0e33abfba267b96887a32cf57f9482c958c700f9e35199cc666",
+      "change": "Lossless gzip compression; uncompressed NIfTI bytes unchanged.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "wm",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_wm_tal_nlin_asym_09c.nii",
+      "upstream_sha256": "337525d68780df3eef82539cf1ff3f44efeb4d988379407cf7a678303bd913d4",
+      "change": "Lossless gzip compression; uncompressed NIfTI bytes unchanged.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "csf",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_csf_tal_nlin_asym_09c.nii",
+      "upstream_sha256": "6baf048a874ebabb252e028229cbfd19ddfc835fa7d89efe18ceab86926c87b3",
+      "change": "Lossless gzip compression; uncompressed NIfTI bytes unchanged.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "brain-mask",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_t1_tal_nlin_asym_09c_mask.nii",
+      "upstream_sha256": "7d80b651fc5f11bae015f28577b9e9b4211d11910b4d215f6a8fb47fc2ab2b40",
+      "change": "Convert nonzero raw stored label values to 1, zero to 0; store uint8 with unit slope and zero intercept. Physical geometry and qform/sform codes retained. Add display name/color.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "face-mask",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_t1_tal_nlin_asym_09c_face_mask.nii",
+      "upstream_sha256": "47612538658ccc71ba7f14f3f5249261d6a86d7209b058107148bbde6e911dad",
+      "change": "Convert nonzero raw stored label values to 1, zero to 0; store uint8 with unit slope and zero intercept. Physical geometry and qform/sform codes retained. Add display name/color.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "eye-mask",
+      "upstream_file": "mni_icbm152_nlin_asym_09c/mni_icbm152_t1_tal_nlin_asym_09c_eye_mask.nii",
+      "upstream_sha256": "edbd1aedf9f50b2a081ca27034c09fa718c8c88e677784f142c7498a68c549ce",
+      "change": "Convert nonzero raw stored label values to 1, zero to 0; store uint8 with unit slope and zero intercept. Physical geometry and qform/sform codes retained. Add display name/color.",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "artifact": "mial67",
+      "upstream_file": "tpl-MNI152NLin2009cAsym_res-01_atlas-MIAL67ThalamicNuclei_dseg.nii.gz",
+      "upstream_sha256": "d3be50ff04dc8e5d2355ee965a1b942354d8e5371428d081f85328eb8c27b6dd",
+      "change": "Image bytes unchanged. Label names/colors copied from the upstream table into the template manifest.",
+      "license": "licenses/CC-BY-4.0.txt"
+    },
+    {
+      "artifact": "ac-pc-midsagittal",
+      "upstream_file": "MNI2009c AC PC midsagittal landmarks.mrk.json",
+      "upstream_sha256": "8acdb993ff7109f3ed3791d4e509f0026f7e0f4d5cde0b10b1bb28c2c9fbc65f",
+      "change": "User-authored point list copied unchanged; six manually placed AC, PC and midsagittal points. LPS coordinates retained.",
+      "license": "licenses/LANDMARKS.txt"
+    }
+  ],
+  "release": "mni2009c-v1",
+  "landmark_validation": "These landmarks have not been validated by a clinical expert. They are intended for testing and may be replaced with clinician-created points in a later sample version."
+}

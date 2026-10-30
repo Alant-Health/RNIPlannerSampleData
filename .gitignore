@@ -1,0 +1,5 @@
+/build/
+*.nii
+*.nii.gz
+*.zip
+__pycache__/

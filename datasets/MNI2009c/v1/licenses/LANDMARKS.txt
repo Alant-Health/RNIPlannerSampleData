@@ -1,0 +1,10 @@
+MNI2009c AC, PC, and midsagittal landmark annotations
+
+These annotations are dedicated to the public domain under CC0 1.0 Universal.
+No attribution is required. The full legal text is in CC0-1.0.txt and at
+https://creativecommons.org/publicdomain/zero/1.0/.
+
+These landmarks have not been validated by a clinical expert. They are intended for testing and may be replaced with clinician-created points in a later sample version.
+
+This dedication applies only to the contributed landmark annotations, not to
+the MNI images or MIAL67 atlas, which retain their separate licenses.
