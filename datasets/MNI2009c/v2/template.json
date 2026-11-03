@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "id": "MNI2009c",
+  "name": "MNI ICBM152 nonlinear asymmetric 2009c",
+  "artifacts": [
+    {
+      "id": "t1w",
+      "name": "MNI2009c T1w",
+      "kind": "intensity",
+      "path": "artifacts/t1w.nii.gz",
+      "registration_image": true,
+      "mask": false,
+      "contrast": "T1w",
+      "modality": "MR",
+      "sha256": "a179e1ab6e2f26988be09d5c6b598de130e63a06bec4525b7c7ab48760e42e4b",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "t2w",
+      "name": "MNI2009c T2w",
+      "kind": "intensity",
+      "path": "artifacts/t2w.nii.gz",
+      "registration_image": false,
+      "mask": false,
+      "contrast": "T2w",
+      "modality": "MR",
+      "sha256": "d8f16407c04f83cdf00d8bd37ff6d6ccf6aca97f2db948466c8daf480fdaefba",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "pd",
+      "name": "MNI2009c PD",
+      "kind": "intensity",
+      "path": "artifacts/pd.nii.gz",
+      "registration_image": false,
+      "mask": false,
+      "contrast": "PD",
+      "modality": "MR",
+      "sha256": "5c5a6d53899322123fda06f798897e166550ea18b4e60fb5521445f368ddee87",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "gm",
+      "name": "MNI2009c Gray matter probability",
+      "kind": "intensity",
+      "path": "artifacts/gm.nii.gz",
+      "registration_image": false,
+      "mask": false,
+      "sha256": "ce05f60ae344610a2dc8f44633202beac8ba53a96199f442a312fc49aea92bbe",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "wm",
+      "name": "MNI2009c White matter probability",
+      "kind": "intensity",
+      "path": "artifacts/wm.nii.gz",
+      "registration_image": false,
+      "mask": false,
+      "sha256": "b6e9b58f8e13f926dc1277f435f1e032dbf2bd9ae715d5c62e9ce0f320d247a1",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "csf",
+      "name": "MNI2009c CSF probability",
+      "kind": "intensity",
+      "path": "artifacts/csf.nii.gz",
+      "registration_image": false,
+      "mask": false,
+      "sha256": "f973c68c70b6c0174081148e999d196a9a126d0e148af48cd3e9ffdbbaa3347a",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "brain-mask",
+      "name": "MNI2009c Brain mask",
+      "kind": "label",
+      "path": "artifacts/brain-mask.nii.gz",
+      "registration_image": false,
+      "mask": true,
+      "labels": [
+        {
+          "value": 1,
+          "name": "Brain mask",
+          "color": [
+            0.1,
+            0.8,
+            0.9
+          ]
+        }
+      ],
+      "sha256": "e0e7263efa2fbd0cc5110e29455d03ba6138bf2ca79a7d516df7eaf39717574c",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "face-mask",
+      "name": "MNI2009c Face mask",
+      "kind": "label",
+      "path": "artifacts/face-mask.nii.gz",
+      "registration_image": false,
+      "mask": true,
+      "labels": [
+        {
+          "value": 1,
+          "name": "Face mask",
+          "color": [
+            0.95,
+            0.65,
+            0.2
+          ]
+        }
+      ],
+      "sha256": "f13308091f1d5a44e37a47b30927cd16b26f284e5d8933a450aa53b55770e67c",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "eye-mask",
+      "name": "MNI2009c Eye mask",
+      "kind": "label",
+      "path": "artifacts/eye-mask.nii.gz",
+      "registration_image": false,
+      "mask": true,
+      "labels": [
+        {
+          "value": 1,
+          "name": "Eye mask",
+          "color": [
+            0.9,
+            0.9,
+            0.1
+          ]
+        }
+      ],
+      "sha256": "ba2d19b3458721acace3f88cfa3c213ac15136988536c14c1c0c87cb03f0ceb7",
+      "license": "licenses/MNI-COPYING.txt"
+    },
+    {
+      "id": "mial67",
+      "name": "MNI2009c MIAL67 thalamic nuclei",
+      "kind": "label",
+      "path": "artifacts/MIAL67-labels.nii.gz",
+      "registration_image": false,
+      "mask": false,
+      "labels": [
+        {
+          "value": 1,
+          "name": "thal-lh-pulvinar",
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "value": 2,
+          "name": "thal-lh-ventral-anterior",
+          "color": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "value": 3,
+          "name": "thal-lh-mediodorsal",
+          "color": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "value": 4,
+          "name": "thal-lh-lateral-posterior-ventral-posterior-group",
+          "color": [
+            1.0,
+            0.4823529411764706,
+            0.0
+          ]
+        },
+        {
+          "value": 5,
+          "name": "thal-lh-pulvinar-medial-centrolateral-group",
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "value": 6,
+          "name": "thal-lh-ventrolateral",
+          "color": [
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "value": 7,
+          "name": "thal-lh-ventral-posterior-ventrolateral-group",
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "value": 8,
+          "name": "thal-rh-pulvinar",
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "value": 9,
+          "name": "thal-rh-ventral-anterior",
+          "color": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "value": 10,
+          "name": "thal-rh-mediodorsal",
+          "color": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "value": 11,
+          "name": "thal-rh-lateral-posterior-ventral-posterior-group",
+          "color": [
+            1.0,
+            0.4823529411764706,
+            0.0
+          ]
+        },
+        {
+          "value": 12,
+          "name": "thal-rh-pulvinar-medial-centrolateral-group",
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "value": 13,
+          "name": "thal-rh-ventrolateral",
+          "color": [
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "value": 14,
+          "name": "thal-rh-ventral-posterior-ventrolateral-group",
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "sha256": "d3be50ff04dc8e5d2355ee965a1b942354d8e5371428d081f85328eb8c27b6dd",
+      "license": "licenses/CC-BY-4.0.txt"
+    },
+    {
+      "id": "ac-pc-midsagittal",
+      "name": "MNI2009c AC PC midsagittal landmarks",
+      "kind": "landmark",
+      "path": "artifacts/AC-PC-midsagittal.mrk.json",
+      "registration_image": false,
+      "mask": false,
+      "sha256": "8acdb993ff7109f3ed3791d4e509f0026f7e0f4d5cde0b10b1bb28c2c9fbc65f",
+      "license": "licenses/LANDMARKS.txt"
+    }
+  ],
+  "release": "mni2009c-v2"
+}
